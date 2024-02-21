@@ -1,4 +1,4 @@
-name: "Github Stats Json Style"
+name: "Github Stats Json Style Test"
 description: "A GitHub Action to generate github stats with json style."
 branding:
     icon: "book"
