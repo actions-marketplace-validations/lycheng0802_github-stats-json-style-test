@@ -29,7 +29,7 @@ runs:
 
         - name: Run readme code
           run: |
-            python main.py ${{ username }}
+            python main.py ${{ inputs.username }}
 
         - name: Configure git
           run: |
