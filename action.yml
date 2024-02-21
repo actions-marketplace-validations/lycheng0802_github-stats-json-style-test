@@ -1,8 +1,8 @@
 name: "Github Stats Json Style Test"
 description: "A GitHub Action to generate github stats with json style."
 branding:
-    icon: "book"
-    color: "star"
+    icon: "star"
+    color: "white"
 inputs:
     username:
         description: "Your Github username"
