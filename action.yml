@@ -22,6 +22,11 @@ runs:
           with:
             python-version: '3.10'
 
+        - name: Download Python script
+          run: |
+            curl -o main.py https://raw.githubusercontent.com/lycheng0802/github-stats-json-style-test/main/main.py
+          shell: bash
+
         - name: Install dependencies
           run: |
             pip install requests
