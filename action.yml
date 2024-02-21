@@ -38,6 +38,10 @@ runs:
             python main.py ${{ inputs.username }}
           shell: bash
 
+        - name: Delete Python script
+          run: rm main.py
+          shell: bash
+
         - name: Configure git
           run: |
               git config --global user.name github-actions
